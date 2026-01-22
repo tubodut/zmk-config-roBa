@@ -41,7 +41,7 @@ layers:
   - {t: BACKSPACE, h: SETTING}
   - {t: SPACE, h: SYMBOL}
   - {t: TAB, h: OPERATION}
-  - BACKSPACE
+  - {t: BACKSPACE, h: SETTING}
   - {t: ENTER, h: FUNCARROW}
   - ESCAPE
   SYMBOL:
@@ -110,7 +110,7 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - RIGHT SHIFT
+  - AltGr+SPACE
   - LEFT SHIFT
   - F11
   - F12
@@ -143,8 +143,8 @@ layers:
   - MUTE
   - VOL DN
   - VOL UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Alt+DOWN
+  - Alt+Ctl+UP
   - Ctl+Alt+LEFT
   - Ctl+Alt+RIGHT
   - Ctl+Alt+M
